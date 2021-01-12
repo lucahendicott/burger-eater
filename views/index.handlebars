@@ -3,9 +3,14 @@
 <div>
 <h2>Burgers to eat!</h2>
 <ul id= "burger-list">
-    {{#each Burgers}}
-    {{#unless devoured}}
-    {{> Burgers/burger devoured=false}}
+    {{#each burgers}}
+    {{#unless this.devoured}}
+        <div class="burgers-toEat">
+            <form data-id= "{{this.id}}" class="update">
+                {{this.burger_name}}
+                <button type="submit" id="burger-btn">CONSUME ME</button>
+            </form>
+        </div>
     {{/unless}}
     {{/each}}
 </ul>
@@ -15,8 +20,10 @@
 <h2>Devoured Burgers!</h2>
 <ul id = "devoured-list">
     {{#each burgers}}
-    {{#if devoured}}
-   
+    {{#if this.devoured}}
+    <div class="devoured-burgers">
+        {{this.burger_name}}
+    </div>
     {{/if}}
     {{/each}}
 </ul>

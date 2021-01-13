@@ -1,12 +1,83 @@
-.devour-btn {
-    float: right;
-    
+body{
+    background-color: ;
 }
 
 h1 {
-    background-color: aqua !important;
+    font-family: 'Londrina Shadow', cursive;
+    font-size: 100px;
+    -webkit-text-fill-color: #eb2f06;
+    font-weight: bolder;
+    text-shadow: 3px 3px #fff200;
+    
 }
 
-.center {
-    margin: 0 auto;
+h2 {
+    font-family: 'Kirang Haerang', cursive;
+    font-size: 40px;
+}
+
+img {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.burger-cards{
+    margin-left: 170px;
+}
+
+.addBtn,
+#burger-input,
+.burgers-toEat,
+.devoured-burgers {
+    font-family: 'Kirang Haerang', cursive;
+    font-size: 22px;
+}
+
+#burger-input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding-left: 60px;
+    outline: none !important;
+}
+
+.addBtn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 15px;
+    height: 40px;
+    width: 80px;
+    outline: none !important;
+    background-color: #18dcff;
+    border: 1px solid black;
+    transition: all 0.2s ease-in-out;
+}
+
+.devour-btn {
+    float: right;
+    border: none;
+    border-radius: 15px;
+    height: 40px;
+    width: 80px;
+    outline: none !important;
+    background-color: #32ff7d9a;
+    border: 1px solid black;
+    transition: all 0.2s ease-in-out;
+}
+
+.addBtn:hover{
+    background-color: #eb3006ad;
+    transform: translate(1px, 1px);
+}
+.devour-btn:hover {
+    background-color: #fff200;
+    transform: translate(1px, 1px);
 }

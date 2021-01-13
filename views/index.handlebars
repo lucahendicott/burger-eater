@@ -6,9 +6,9 @@
     {{#each burgers}}
     {{#unless this.devoured}}
         <div class="burgers-toEat">
-            <form data-id= "{{this.id}}" class="update">
+            <form class="update">
                 {{this.burger_name}}
-                <button type="submit" id="burger-btn">CONSUME ME</button>
+                <button type="submit" data-id="{{this.id}}" class="devour-btn">CONSUME ME</button>
             </form>
         </div>
     {{/unless}}
@@ -38,6 +38,6 @@
     <input type="text" id="burger-input" name="name">
   </div>
 
-  <button type="submit">Add this bruger!</button>
+  <button class = "addBtn" type="submit">Add this bruger!</button>
 </form>
 </div>

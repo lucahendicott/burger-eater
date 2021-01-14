@@ -15,7 +15,7 @@ Application runs as is in the browser. No downloads or installs neccessary.
 
 ## Usage  
 
-![burger-eater-demo](public/assets/images/Burger Eater!.gif)
+![burger-eater-demo](public/assets/images/bruger-eater.gif)
   
 ## Credits   
 [CSS color palettes](https://flatuicolors.com/)   

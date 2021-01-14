@@ -1,5 +1,12 @@
 body{
-    background-color: ;
+    
+    background-color: #5ce6fe5b;
+    /* background-color: #e778fe4a; */
+
+    
+    background-image: url("https://www.transparenttextures.com/patterns/blizzard.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
 }
 
 @media all and (max-width: 1000px) {
@@ -25,17 +32,11 @@ h2 {
 img {
     width: 300px;
     height: 275px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 0;
 }
 
 .burger-cards{
     margin-left: 170px;
-}
-
-.devoured-burgers {
 }
 
 .addBtn,
@@ -46,10 +47,15 @@ img {
     font-size: 22px;
 }
 
+.addBtn,
+img,
 #burger-input {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#burger-input {
     margin-bottom: 10px;
     margin-top: 30px;
     border-radius: 15px;
@@ -57,10 +63,8 @@ img {
     outline: none !important;
 }
 
+
 .addBtn {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 50px;
     border: none;
     border-radius: 15px;
@@ -76,16 +80,16 @@ img {
     border-radius: 15px;
     float: right;
     outline: none !important;
-    background-color: #32ff7d9a;
+    background-color:  #fff200;
     border: 1px solid black;
     transition: all 0.2s ease-in-out;
 }
 
 .addBtn:hover{
-    background-color: #eb3006ad;
+    background-color:  #14de5e;
     transform: translate(1px, 1px);
 }
 .devour-btn:hover {
-    background-color: #fff200;
+    background-color:   #e96142;
     transform: translate(1px, 1px);
 }

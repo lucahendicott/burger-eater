@@ -1,12 +1,5 @@
-body{
-    
-    background-color: #5ce6fe5b;
-    /* background-color: #e778fe4a; */
-
-    
-    background-image: url("https://www.transparenttextures.com/patterns/blizzard.png");
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-
+body{  
+    background-color: #e168fc5a;
 }
 
 @media all and (max-width: 1000px) {
@@ -71,7 +64,7 @@ img,
     height: 40px;
     width: 80px;
     outline: none !important;
-    background-color: #18dcff;
+    background-color: #18dcff ;
     border: 1px solid black;
     transition: all 0.2s ease-in-out;
 }
@@ -80,16 +73,16 @@ img,
     border-radius: 15px;
     float: right;
     outline: none !important;
-    background-color:  #fff200;
+    background-color: #48f487;
     border: 1px solid black;
     transition: all 0.2s ease-in-out;
 }
 
 .addBtn:hover{
-    background-color:  #14de5e;
+    background-color: #f07053;
     transform: translate(1px, 1px);
 }
 .devour-btn:hover {
-    background-color:   #e96142;
+    background-color: #fff200;
     transform: translate(1px, 1px);
 }

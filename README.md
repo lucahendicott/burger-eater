@@ -7,7 +7,7 @@ CRUD Application using a mysql database, express and express-handlebars. User's 
 * [Installation](#installation)  
 * [Usage](#usage) 
 * [Credits](#credits)  
-* [Deployed App](#deployedapp)
+* [Deployed App](#deployed-app)
 * [Questions](#questions)  
 
 ## Installation  

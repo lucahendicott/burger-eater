@@ -1,7 +1,7 @@
 # Eat-The-Burger  
 
 ## Description  
-CRUD Application using a mysql database, express and express-handlebars. User's can add names of cheeseburgers which will appear under the "ready-to-eat" list. Any burger added will have a "DEVOUR" button that the user can click to send the burger on over to the "Devoured List".     
+Application using a mysql database, express and express-handlebars. User's can add names of cheeseburgers which will appear under the "ready-to-eat" list. Any burger added will have a "DEVOUR" button that the user can click to send the burger on over to the "Devoured List".     
 
 ## Table of Contents  
 * [Installation](#installation)  
